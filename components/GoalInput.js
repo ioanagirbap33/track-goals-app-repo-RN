@@ -34,7 +34,7 @@ export const GoalInput = ({ onAddGoal, visible, onCancel }) => {
           value={enteredGoalText}
         />
         <View style={styles.buttonContainer}>
-          <Button title="Add Goal" onPress={addGoalHandler} />
+          <Button title="Add Goal" onPress={addGoalHandler} color="#b180f0" />
           <Button title="Cancel" onPress={onCancel} />
         </View>
       </View>
